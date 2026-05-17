@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 1. [Laboratory Context](#laboratory-context)
 2. [Environment Setup](#environment-setup)
@@ -21,7 +21,7 @@
 
 ---
 
-## 🎯 Laboratory Context
+##  Laboratory Context
 
 This pedagogical lab focuses on **static analysis** of Android applications using **MobSF (Mobile Security Framework)** , an open-source automated security testing tool.
 
@@ -44,7 +44,7 @@ This pedagogical lab focuses on **static analysis** of Android applications usin
 
 ---
 
-## ⚙️ Environment Setup
+##  Environment Setup
 
 ### Deployment Method
 
@@ -87,7 +87,7 @@ The login page requires credentials before accessing the analysis dashboard.
 
 ---
 
-## 📤 APK Submission & Static Analysis
+##  APK Submission & Static Analysis
 
 ### File Upload
 
@@ -115,7 +115,7 @@ The diva.apk file was submitted through MobSF's web interface using the "Upload 
 
 ---
 
-## 📊 Security Scoring
+## Security Scoring
 
 ### Global Security Score
 
@@ -137,7 +137,7 @@ The diva.apk file was submitted through MobSF's web interface using the "Upload 
 
 ---
 
-## 🔍 Vulnerability Assessment
+## Vulnerability Assessment
 
 ### Exported Components Analysis
 
@@ -162,7 +162,7 @@ Supplementary analysis data showing component structure. This view provides addi
 
 ---
 
-## 📋 Risk Matrix
+## Risk Matrix
 
 | Vulnerability Category | Severity | CVSS Score (Est.) | Exploitability | Impact | MASVS Reference |
 |------------------------|----------|-------------------|-----------------|--------|-----------------|
@@ -182,7 +182,7 @@ Supplementary analysis data showing component structure. This view provides addi
 
 ---
 
-## 🛠️ Remediation Strategy
+## Remediation Strategy
 
 ### Immediate Actions (Critical & High Priority)
 
@@ -211,7 +211,7 @@ Supplementary analysis data showing component structure. This view provides addi
 
 ---
 
-## 📝 OWASP MASVS Compliance Mapping
+## OWASP MASVS Compliance Mapping
 
 | Vulnerability | MASVS Category | Requirement ID | Compliance Status |
 |---------------|----------------|----------------|--------------------|
@@ -251,7 +251,7 @@ The analyzed diva.apk is intentionally vulnerable for educational purposes. In a
 
 ---
 
-## 📎 Annexes
+## Annexes
 
 ### A. Tool Versions
 
@@ -282,12 +282,3 @@ The analyzed diva.apk is intentionally vulnerable for educational purposes. In a
 | Android Security Docs | https://source.android.com/docs/security |
 
 ---
-
-## 🔏 Audit Signature
-
-**Analyst Name**: Omayma El Yamani  
-**Audit Completion Date**: May 16, 2026  
-**Environment**: Windows 11 + Docker Desktop + WSL2  
-**Tool Version**: MobSF v4.5.0  
-
-This audit report was produced for educational purposes as part of a mobile security laboratory. All findings are based on static analysis only and should be verified with dynamic analysis for complete assessment.
